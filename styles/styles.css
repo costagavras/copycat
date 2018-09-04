@@ -1,13 +1,7 @@
 * {
   box-sizing: border-box;
 }
-.palette {
-  background-color: #06D6A0;
-  background-color: #26547C;
-  background-color: #EF476F;
-  background-color: #FFD166;
-  background-color: #FFFCF9;
-}
+
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -78,6 +72,9 @@ footer {
   text-align: center;
   color: #EF476F;
 }
+
+/* responsive design, when screen is wider than 550px */
+
 @media screen and (min-width: 550px) {
   html {
     font-size: 1.2em;
